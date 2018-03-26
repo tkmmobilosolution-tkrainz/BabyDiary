@@ -1,4 +1,6 @@
 package tkm.at.minime.model
 
-class MMUser {
-}
+import tkm.at.minime.authentication.MMAuthentication
+
+data class MMUser(val email: String, val userName: String, val childs: ArrayList<MMChild>,
+                  val uuid: String = MMAuthentication().userUUID())
