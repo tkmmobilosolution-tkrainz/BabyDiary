@@ -1,6 +1,5 @@
 package tkm.at.minime.base
 
-import android.app.AlertDialog
 import android.app.Fragment
 import android.os.Bundle
 import android.support.design.widget.NavigationView
@@ -11,8 +10,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
 import android.view.View
-import android.widget.Button
-import android.widget.TextView
+import tkm.at.minime.CalendarFragment
 import tkm.at.minime.R
 
 /**
@@ -46,7 +44,7 @@ class HomeActivity : MMActivity(), NavigationView.OnNavigationItemSelectedListen
         val navigationView = findViewById<View>(R.id.nav_view) as NavigationView
         navigationView.setNavigationItemSelectedListener(this)
 
-        //replaceFragment(OverviewFragment())
+        replaceFragment(CalendarFragment())
 
         navigationView.menu.getItem(0).isChecked = true
     }
@@ -88,18 +86,9 @@ class HomeActivity : MMActivity(), NavigationView.OnNavigationItemSelectedListen
 
     private fun replaceFragment(fragment: Fragment) {
         val transaction = fragmentManager.beginTransaction()
-        /**
-        if (fragment is TrainingsOverViewFragment) {
-        transaction.addToBackStack("Training")
         transaction.replace(R.id.content_frame, fragment)
-        } else if (fragment is StatisticsActivity) {
-        transaction.replace(R.id.content_frame, fragment, "Statistics")
-        } else {
-        transaction.replace(R.id.content_frame, fragment)
-        }
 
         transaction.commit()
-         */
         showUpButton(false)
     }
 
