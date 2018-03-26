@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "156163169092",
+    "firebase_url": "https://minime-de1ce.firebaseio.com",
+    "project_id": "minime-de1ce",
+    "storage_bucket": "minime-de1ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156163169092:android:c3ba40ebffff62aa",
+        "android_client_info": {
+          "package_name": "tkm.at.minime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156163169092-815aep2ek7u35gljqrrs71h03fesaudh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLrpCC3Ap4zoqggX-PklfoNhqV2h4JSHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
