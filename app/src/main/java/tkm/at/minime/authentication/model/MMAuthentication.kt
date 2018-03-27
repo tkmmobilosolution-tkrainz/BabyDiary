@@ -1,4 +1,4 @@
-package tkm.at.minime.authentication
+package tkm.at.minime.authentication.model
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
