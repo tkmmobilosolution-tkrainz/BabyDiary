@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Einträge">
+        <menu>
+            <item
+                android:id="@+id/nav_event"
+                android:title="Termine" />
+            <item
+                android:id="@+id/nav_"
+                android:title="Besondere Momente" />
+            <item
+                android:id="@+id/nav_teeth"
+                android:title="Zähne" />
+
+            <item
+                android:id="@+id/nav_breastFeed"
+                android:title="Stillen" />
+
+            <item
+                android:id="@+id/nav_ilness"
+                android:title="Krankheit" />
+
+            <item
+                android:id="@+id/nav_vaccination"
+                android:title="Impfungen" />
+
+            <item
+                android:id="@+id/nav_fever"
+                android:title="Fieber" />
+
+        </menu>
+    </item>
+
+    <item android:title="Soziales">
+        <menu>
+
+            <item
+                android:id="@+id/nav_social"
+                android:title="Beiträge" />
+        </menu>
+    </item>
+
+    <item android:title="Generel">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:title="Profil" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:title="Über uns" />
+        </menu>
+    </item>
+</menu>
